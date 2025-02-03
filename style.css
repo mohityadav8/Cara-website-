@@ -127,6 +127,15 @@ body {
     left: 20px;
 }
 
+#mobile{
+    display: none;
+    align-items: center;
+}
+
+
+
+
+
 /*home page*/
 #hero{
     background-image: url(hero4.png);
@@ -392,7 +401,6 @@ body {
     color: #ec544e;
     font-weight: 900;
     font-size: 22px;
- }
 
  #newsletter{
     display: flex;
@@ -497,7 +505,8 @@ footer .copyright {
    
     text-align: center;
 
-}
+} }
+
 
 @media (max-width: 799px) {
     #navbar {
@@ -507,11 +516,15 @@ footer .copyright {
     justify-content: flex-start;
     position: fixed;
     top: 0;
-    right: 8px;
+    right: -300px;
     height: 100vh;
     width: 300px;
     background-color: #E3E6F3;
     box-shadow: 0 40px 60px;
+    padding: 80px 00 10px;
+    }
 
+    #navbar li {
+        margin-bottom: 25px;
     }
 }
