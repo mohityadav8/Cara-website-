@@ -8,7 +8,7 @@
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 51px;
     line-height: 64px;
     color: #222;
 }
@@ -527,4 +527,5 @@ footer .copyright {
     #navbar li {
         margin-bottom: 25px;
     }
+
 }
